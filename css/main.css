@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+.h1-color {
+    color: #E49855;
+}
+
+body {
+    background: #FEFEF3;
+    font-family: 'Manjari', sans-serif;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-container {
+    width: 50%;
+    padding: 25px;
+    height: 100vh;
+
+}
+
+.logo {
+    font-family: 'Livvic', sans-serif;
+    font-size: 35px;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: #E49855;
+}
+
+.headline {
+    padding: 55px;
+
+}
+
+
+
+.headline-text .title {
+    font-size: 6.7em;
+    margin-bottom: 5px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+
+
+}
+
+.headline-text p {
+    color: #E49855;
+    margin-bottom: 25px;
+    line-height: 1.1;
+    font-size: 19px;
+
+}
+
+
+.input-field {
+    width: 100%;
+}
+
+.input-field input {
+    border: 1px solid #E49855;
+    border-radius: 15px;
+    width: 50%;
+    height: 55px;
+
+}
+
+.input-field input[type=text] {
+    padding-left: 15px;
+
+
+
+
+}
+
+.input-field .input-btn {
+    position: relative;
+    right: 75px;
+    padding: 20px 45px;
+    border-radius: 25px;
+    border: none;
+    background: #E49855;
+    color: white;
+    cursor: pointer;
+}
+
+
+.img-right {
+    /* background: url(/img/women2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%; */
+
+    background: url(/img/women3.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 50%;
+
+
+}
+
+footer {
+    background: #E49855;
+    padding: 10px;
+}
+
+footer .social-container {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+footer .social-container .fab {
+    padding: 0 8px;
+    color: white;
+    font-size: 18px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+}
